@@ -33,31 +33,29 @@
 			<section>
 				<header><h2>Update Profile</h2></header>
 				<form name="updateProfile">
-					<label for="firstName">First Name</label>
+					<label for="firstName">First Name:</label>
 					<input type="text" name="firstName" />
-					<br />
-					<label for="lastName">Last Name</label>
+					<br /><br />
+					<label for="lastName">Last Name:</label>
 					<input type="text" name="lastName" />
-					<br />
-					<label for="email">Email</label>
+					<br /><br />
+					<label for="email">Email Address:</label>
 					<input type="email" name="email" />
-					<br />
-					<label for="matricNumber">Matric Number</label>
+					<br /><br />
+					<label for="matricNumber">Matric Number:</label>
 					<input type="text" name="matricNumber" />
-					<br />
+					<br /><br />
 					<label for="program">Program:</label>
-					<select name="program" id="program">
-						<option value="">--Please choose an option--</option>
+					<select name="program">
 						<option value="Computer_Science">Computer Science</option>
 						<option value="Computer_Information_Systems">
 							Computer Information Systems
 						</option>
 						<option value="Computer Technology">Computer Technology</option>
 					</select>
-					<br />
+					<br /><br />
 					<label for="graduationYear">Graduation Year:</label>
 					<select name="graduation_Year" id="graduationYear">
-						<option value="">--Please choose an option--</option>
 						<option value="2013">2013</option>
 						<option value="2014">2014</option>
 						<option value="2015">2015</option>
@@ -67,22 +65,24 @@
 						<option value="2019">2019</option>
 						<option value="2020">2020</option>
 					</select>
-					<br />
+					<br /><br />
 					<input type="submit" value="Submit" />
 				</form>
 			</section>
 			<section>
 				<header><h2>Change Password</h2></header>
-				<label for="password">Current Password</label>
-				<input type="password" name="password" />
-				<br />
-				<label for="newPassword">New Password</label>
-				<input type="password" name="newPassword" />
-				<br />
-				<label for="confirmPassword">Confirm Password</label>
-				<input type="password" name="confirmPassword" />
-				<br />
-				<input type="submit" value="Submit" />
+				<form name="changePassword">
+					<label for="password">Current Password:</label>
+					<input type="password" name="password" />
+					<br /><br />
+					<label for="newPassword">New Password:</label>
+					<input type="password" name="newPassword" />
+					<br /><br />
+					<label for="confirmPassword">Confirm Password:</label>
+					<input type="password" name="confirmPassword" />
+					<br /><br />
+					<input type="submit" value="Submit" />
+				</form>
 			</section>
 		</main>
 	</body>

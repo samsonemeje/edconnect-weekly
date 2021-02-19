@@ -21,20 +21,17 @@
 			<a href="register.html">Register</a>
 		</nav>
 		<main>
-			<header><h2>Search Project by</h2></header>
 			<section>
-				<header></header>
-				<form name="searchTerm">
-					<div>
-						<input
-							type="text"
-							placeholder="Project, Name, Authors, Abstract, Tags"
-						/>
-					</div>
+				<header><h3>Search Project By</h3></header>
+				<form name="searchForm">
+					<input
+						type="text"
+						name="searchTerm"
+						placeholder="Project, Name, Authors, Abstract, Tags"
+					/>
 					<br />
 					<label>Search by</label><br />
-					<select name="searchType" id="searchType">
-						<option value="">--Please choose an option--</option>
+					<select name="searchType">
 						<option value="Name">Name</option>
 						<option value="Abstract">Abstract</option>
 						<option value="Authors">Authors</option>

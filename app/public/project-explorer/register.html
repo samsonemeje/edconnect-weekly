@@ -22,59 +22,55 @@
 		</nav>
 		<main>
 			<h1>Sign Up</h1>
-			<form>
-				<div>
-					<label for="firstName">First Name:</label>
-					<input type="text" name="firstName" />
-				</div>
-				<br />
-				<div>
-					<label for="lastName">Last Name:</label>
-					<input type="text" name="lastName" />
-				</div>
-				<br />
-				<div>
-					<label for="emailAddress">Email Address:</label>
-					<input type="email" name="emailAddress" />
-				</div>
-				<br />
-				<div>
-					<label for="password">Password</label>
-					<input type="password" name="password" />
-				</div>
-				<br />
-				<div>
-					<label for="matricNumber">Matric Number:</label>
-					<input type="text" name="matricNumber" />
-				</div>
-				<br />
-				<div>
-					<label for="program">Program:</label>
-					<select name="program" id="program">
-						<option value="">--Please choose an option--</option>
-						<option value="Computer_Science">Computer Science</option>
-						<option value="Computer_Information_Systems">
-							Computer Information Systems
-						</option>
-						<option value="Computer Technology">Computer Technology</option>
-					</select>
-				</div>
-				<br />
-				<div>
-					<label for="graduationYear">Graduation Year:</label>
-					<select name="graduation_Year" id="graduationYear">
-						<option value="">--Please choose an option--</option>
-						<option value="2013">2013</option>
-						<option value="2014">2014</option>
-						<option value="2015">2015</option>
-						<option value="2016">2016</option>
-						<option value="2017">2017</option>
-						<option value="2018">2018</option>
-						<option value="2019">2019</option>
-						<option value="2020">2020</option>
-					</select>
-				</div>
-				<br />
+			<form name="signUp">
+				<label for="firstName">First Name:</label>
+				<input type="text" name="firstName" />
+				<br /><br />
+
+				<label for="lastName">Last Name:</label>
+				<input type="text" name="lastName" />
+
+				<br /><br />
+
+				<label for="email">Email Address:</label>
+				<input type="email" name="email" />
+
+				<br /><br />
+
+				<label for="password">Password:</label>
+				<input type="password" name="password" />
+
+				<br /><br />
+
+				<label for="matricNumber">Matric Number:</label>
+				<input type="text" name="matricNumber" />
+
+				<br /><br />
+
+				<label for="program">Program:</label>
+				<select name="program">
+					<option value="Computer_Science">Computer Science</option>
+					<option value="Computer_Information_Systems">
+						Computer Information Systems
+					</option>
+					<option value="Computer Technology">Computer Technology</option>
+				</select>
+
+				<br /><br />
+
+				<label for="graduationYear">Graduation Year:</label>
+				<select name="graduationYear">
+					<option value="2013">2013</option>
+					<option value="2014">2014</option>
+					<option value="2015">2015</option>
+					<option value="2016">2016</option>
+					<option value="2017">2017</option>
+					<option value="2018">2018</option>
+					<option value="2019">2019</option>
+					<option value="2020">2020</option>
+				</select>
+
+				<br /><br />
 				<input type="submit" value="Submit" />
 			</form>
 		</main>
